@@ -79,7 +79,7 @@ function aplicarDescuento(preArticulo){
     }
    return precioFinal;
 }
-console.log(aplicarDescuento(130000));
+console.log( "el precio del producto con el descuento aplicado es de: " + aplicarDescuento(130000));
 
 
 const CARRITO =[

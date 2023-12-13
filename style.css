@@ -6,12 +6,11 @@
 html{
     height: 100%;
 }
-body{
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
-    background-color:white;
-}
+body {
+    transition: background-color 0.5s ease;
+    background-color: #fff;
+    color: #333;
+  }
 .container-nav{
     display: flex;
     flex-direction: row;
@@ -24,9 +23,9 @@ body{
     padding-right: 2.1875rem;
 }
 .logo{
-    padding-bottom: 55px;
-    width: 6.25rem;
-    height: 7.5rem;
+    padding-bottom: 30px;
+    width: 5.625rem;
+    height: 5.625rem;
 }
 .nav-ul{
     display: flex;
@@ -35,28 +34,56 @@ body{
     font-size: 1.125rem;
     text-decoration: black;
 }
-main{
-    display: flex;
-    flex-direction: row;
+.imgProducto{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-top: 1rem;
 }
-.card{
+.colorBoton{
+    color: white;
+    padding: 3px;
+    background-color: rgb(12, 63, 95);
+    align-items: center;
+    text-align: center;
+}
+.colorBotonn{
+    color: white;
+    padding: 3px;
+    margin: 3px;
+    background-color: rgb(12, 63, 95);
+}
+#contenedorProductos{
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
-  margin-top: 3.125rem;
-  padding-left: 12.5rem;
+  justify-content: center;
 }
-.card-img{
-    height: 15.625rem;
-    width: 16.875rem; 
+#contenedorcarrito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
 }
-.button-card{
-    border-radius: 1.25rem;
-    margin-top: .625rem;
-    margin-bottom: .625rem;
-    height: 2.5rem;
-    width: 5rem;
+#modoOscuroBtn{
+    color: white;
+    padding: 3px;
+    margin: 10px;
+    margin-left: 35px;
+    background-color: rgb(12, 63, 95);
+}
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+.h3{
+    padding-left: 15px;
 }
 footer{
     background-color: steelblue;

@@ -120,3 +120,12 @@ footer{
 #fetchButton{
     margin-left: 35px;
 }
+.h3{
+    margin-top: 25px;
+    padding-top: 10px;
+    background-color: grey;
+}
+.roww{
+    background-color: grey;
+    padding: 25px;
+}
